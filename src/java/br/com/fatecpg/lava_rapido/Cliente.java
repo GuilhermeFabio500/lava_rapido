@@ -27,7 +27,7 @@ public class Cliente {
         String password = "app";                
         Connection con = DriverManager.getConnection(url, user, password);
         Statement stmt = con.createStatement();
-        String sql = "SELECT NOME, CPF, FROM APP.CLIENTE";
+        String sql = "SELECT NOME, CPF FROM APP.CLIENTE";
         ResultSet rs = stmt.executeQuery(sql);
         while(rs.next()){
             Cliente c = new Cliente(

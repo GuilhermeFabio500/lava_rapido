@@ -15,3 +15,6 @@ CREATE TABLE servico (
 Tipo_servico varchar(50) NOT NULL PRIMARY KEY,
 Valor int
 );
+
+INSERT INTO cliente
+VALUES ('12345678901', 'guilherme');
