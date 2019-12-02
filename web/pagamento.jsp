@@ -1,7 +1,7 @@
 <%-- 
-    Document   : home
-    Created on : Dec 1, 2019, 3:21:01 PM
-    Author     : guilh
+    Document   : pagamento
+    Created on : 01/12/2019, 22:09:52
+    Author     : elois
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -9,9 +9,9 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Lava Rápido</title>
+        <title>JSP Page</title>
     </head>
     <body>
-        <h1>Lava Rápido do seu Zé</h1>
+        <h1>Hello World!</h1>
     </body>
 </html>
