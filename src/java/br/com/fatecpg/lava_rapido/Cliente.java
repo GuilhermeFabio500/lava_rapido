@@ -10,5 +10,24 @@ package br.com.fatecpg.lava_rapido;
  * @author guilh
  */
 public class Cliente {
+    String Nome;
+    String CPF;
+
+    public String getNome() {
+        return Nome;
+    }
+
+    public void setNome(String Nome) {
+        this.Nome = Nome;
+    }
+
+    public String getCPF() {
+        return CPF;
+    }
+
+    public void setCPF(String CPF) {
+        this.CPF = CPF;
+    }
+    
     
 }
